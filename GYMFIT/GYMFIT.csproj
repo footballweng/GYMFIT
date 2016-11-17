@@ -107,7 +107,6 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
-    <Content Include="VenueBooking.aspx" />
     <Content Include="Web.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
@@ -150,13 +149,6 @@
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
-    </Compile>
-    <Compile Include="VenueBooking.aspx.cs">
-      <DependentUpon>VenueBooking.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="VenueBooking.aspx.designer.cs">
-      <DependentUpon>VenueBooking.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
