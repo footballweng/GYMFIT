@@ -51,8 +51,15 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style1">&nbsp;</td>
+            <td class="auto-style1">Purpose:</td>
             <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <asp:TextBox ID="TextBox1" runat="server" Width="901px"></asp:TextBox>
+            </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
