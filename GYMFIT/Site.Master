@@ -8,12 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - My ASP.NET Application</title>
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <link href="Stylesheet/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Questrial|Raleway:400,500,700" rel="stylesheet">
+    <link href="Stylesheet/Main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="HeaderContent" runat="server">
+    </asp:ContentPlaceHolder>
 </head>
 <body>
     <form runat="server">
-        
-
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
